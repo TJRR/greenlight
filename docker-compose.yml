@@ -3,7 +3,7 @@ version: '3'
 services:
   app:
     entrypoint: [bin/start]
-    image: mconf/greenlight:tjrr-2.4-dev
+    image: tjrr/scriba:greenlight-2.4.1
     container_name: greenlight-v2
     env_file: .env
     restart: unless-stopped
